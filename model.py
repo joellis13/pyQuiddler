@@ -25,4 +25,7 @@ class Game:
         self.players = players
         self.deck = deck
         self.discarded_cards = []
-        self.round = 0
+        self.round = 1
+    
+    def go_to_next_round(self):
+        self.round += 1

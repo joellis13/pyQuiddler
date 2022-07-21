@@ -4,4 +4,3 @@ from playaz import print_player_scores
 
 game = set_up_game()
 print_player_scores(game.players)
-
