@@ -6,7 +6,7 @@ def get_players():
 
     players = []
     for idx in range(number_of_players):
-        name = input('Player ' + str(idx) + ' name => ')
+        name = input('Player ' + str(idx +1) + ' name => ')
         players.append(Player(idx +1, name))
     
     return players
